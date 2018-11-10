@@ -1,0 +1,9 @@
+var PickedItems = [['river', 'it is river', 100, 'good'], ['tree', 'it is tree', 200, 'good'], ['mountain', 'it is mountain', 150, 'good']];
+
+var PriceTotal = 0;  // Variable to hold your total
+
+for(var i = 0, len = PickedItems.length; i < len; i++) {
+    PriceTotal += PickedItems[i][2];  // Iterate over your first array and then grab the third element add the values up
+}
+
+document.write(PriceTotal); // 450 in this instance
