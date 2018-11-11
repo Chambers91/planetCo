@@ -1,3 +1,37 @@
+var accountBalance = 500;
+
+var river = document.getElementById("river");
+river.onclick = function (){
+//subtract 350
+accountBalance.subtract;
+}
+var tree = document.getElementById("tree");
+river.onclick = function (){
+//subtract 175
+
+}
+var crop = document.getElementById("crop");
+river.onclick = function (){
+//subtract 200
+
+}
+var mountain = document.getElementById("mountain");
+river.onclick = function (){
+//subtract 200
+
+}
+var gold = document.getElementById("gold");
+river.onclick = function (){
+
+
+}
+var butterfly = document.getElementById("butterfly");
+river.onclick = function (){
+
+
+}
+
+
 //create an array that you have items to select from
 // points/currency do not change based off the selection because it is level 1
 var lvl1 = ["name", "description", "price", "category"];
